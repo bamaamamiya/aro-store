@@ -18,13 +18,7 @@
   s.parentNode.insertBefore(t, s);
 })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
 
-fbq("init", "1250623926188998");
-fbq("init", "454553801046165");
-fbq("init", "600654142367970");
-fbq("init", "1383077222724690");
-fbq("init", "1093785025490959");
-fbq("init", "2111198546014232");
-fbq("init", "2588889891453558");
+fbq("init", "2553674101646393");
 fbq("track", "PageView");
 
 // Hotjar
