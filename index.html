@@ -1,0 +1,22 @@
+<!doctype html>
+	<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aro Store</title>
+    <!-- Preload: hanya 1 gambar LCP -->
+    <link rel="preload" fetchpriority="high" as="image" href="/images/cctv/1.webp" type="image/webp" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://connect.facebook.net" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Load Pixel dan Hotjar setelah load -->
+    <script defer src="/defer-fb-hotjar.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
