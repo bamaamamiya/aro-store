@@ -14,8 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<CctvBohlam />} />
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/" element={<LoginPage />} />
         <Route
           path="/dashboard"
           element={
