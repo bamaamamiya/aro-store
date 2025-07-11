@@ -19,6 +19,7 @@
 })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
 
 fbq("init", "2553674101646393");
+fbq("init", "1869026317210454");
 fbq("track", "PageView");
 
 // Hotjar

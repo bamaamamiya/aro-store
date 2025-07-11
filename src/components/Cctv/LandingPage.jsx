@@ -78,7 +78,7 @@ const CctvBohlam = () => {
         testimonies={testimonies}
       />
       <Footer
-        pixelId="2553674101646393"
+        pixelId="1869026317210454"
         produkBaru={funnelProduct}
         footerImages={["images/fotter2.webp", "images/fotter.webp"]}
         faqs={faqs}
