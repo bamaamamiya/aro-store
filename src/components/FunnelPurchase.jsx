@@ -49,7 +49,7 @@ const FunnelPurchase = ({ pixel, product }) => {
     console.error("Gagal menyimpan data:", error);
     return; // stop lanjut
   }
-
+	
   // ✅ Facebook Pixel trigger
   if (window.fbq) {
     fbq("trackSingle", pixel, "Purchase", {
@@ -59,6 +59,7 @@ const FunnelPurchase = ({ pixel, product }) => {
       value: product.price || 0,
       currency: "IDR",
     });
+		console.log(pixel,"Pixel On ✅")
   }
 
   // ✅ Kirim ke WhatsApp Admin
