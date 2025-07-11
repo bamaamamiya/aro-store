@@ -59,8 +59,8 @@ const FunnelPurchase = ({ pixel, product }) => {
       value: product.price || 0,
       currency: "IDR",
     });
-		console.log(pixel,"Pixel On ✅")
   }
+	console.log(pixel,"Pixel On ✅")
 
   // ✅ Kirim ke WhatsApp Admin
   setTimeout(() => {
